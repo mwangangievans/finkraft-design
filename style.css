@@ -1,0 +1,256 @@
+.top-section{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 136, 209);
+    color: #ffffff;
+    height: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.top-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.top-section ul li{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.top-section ul li a{
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(238, 231, 231);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 250px;
+    align-items: center;
+}
+
+.nav .navbar{
+    padding-left: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .navbar img{
+    height: 100px;
+    margin-top: -20px;
+}
+
+.nav .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .right .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    border-right: 2px solid rgb(238, 231, 231);
+    margin-top: -20px;
+}
+
+.nav .right .info .fas{
+    color: rgb(27, 136, 209);
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav .right .info div{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav .right .info div p{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.nav .right .info div p:first-child{
+    border-bottom: 2px solid rgb(238, 231, 231);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+
+.b-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    border-bottom: 1px solid rgb(238, 231, 231);
+    height: 70px;
+}
+.b-section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.b-section ul li{
+    align-items: center;
+    padding-top: 15px;
+}
+
+.b-section ul li a{
+    align-items: center;
+    color: rgb(27, 136, 209);
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.b-section button{
+    background-color: rgb(27, 136, 209);
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: none;
+}
+
+
+
+.carousel-caption{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    
+}
+
+.carousel-item img{
+    height: 400px;
+    width: 100%;
+}
+
+.custom-btn{
+    background-color: rgb(27, 136, 209);
+    border-radius: 4px;
+    padding: 10px 60px;
+    color: #ffffff;
+}
+
+.loved{
+    background-color: #ffffff;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+}
+
+.loved .title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: rgb(27, 136, 209);
+    font-weight: 300;
+}
+
+
+
+.c-card img{
+    width: 180px;
+}
+
+.c-card h6{
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(27, 136, 209);
+    font-weight: 300;
+}
+
+.c-card p{
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    color: #343e47;
+}
+
+.c-card .content h5{
+    text-align: start;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(27, 136, 209);
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-left: 3px solid rgb(27, 136, 209);
+}
+
+.c-card .content p{
+    border-top: 1px solid rgb(224, 221, 221);
+    padding-top: 5px;
+}
+
+.explore{
+    background-color: #f8f8f8 !important;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+}
+
+.explore .col{
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.explore .col i{
+    color: rgb(27, 136, 209);
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.explore .col h5{
+    text-align: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(27, 136, 209);
+    font-weight: 300;
+}
+
+.explore .col p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    color: #343e47;
+}
+
+.explore .title{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: rgb(27, 136, 209);
+    font-weight: 300;
+}
